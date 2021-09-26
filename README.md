@@ -22,10 +22,12 @@ created with name images and masks
 •	intensity normalization used to process the training, validation and testing images.
 
 Running the data preprocessing code:
+
 python Data_Preprocessing_Flare2021.py
 
 # Training
-Please run this python code for training
+Please run this python code for training:
+
 python Training_Flare_model.py
 
 # Trained Models
@@ -33,6 +35,7 @@ The trained weights can be download here:
 
 # Inference
 To infer the testing cases, run this command:
+
 python prediction_flare21.py
 
 # Results
