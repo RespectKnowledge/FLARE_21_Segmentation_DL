@@ -1,4 +1,4 @@
-# FLARE_21_Segmentation_DL
+# FLARE21_Segmentation_DL
 
 # My Paper Title
 This repository is the official implementation of "Efficient Segmentation of Abdominal Organs using Skip 
