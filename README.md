@@ -13,21 +13,31 @@ pip install -r requirements.txt
 # Dataset
 Please you can donwload the dataset from the following website
 https://flare.grand-challenge.org/Data/
+
 •	The dataset is divided into training and validation. Inside the training and validation further two folders are
+
 created with name images and masks
+
 # Preprocessing
 •	intensity normalization used to process the training, validation and testing images.
+
 Running the data preprocessing code:
-python 
+python Data_Preprocessing_Flare2021.py
+
 # Training
 Please run this python code for training
+python Training_Flare_model.py
+
 # Trained Models
 The trained weights can be download here:
 
 # Inference
 To infer the testing cases, run this command:
+python prediction_flare21.py
+
 # Results
 Please check the validation results on leaderboard
 https://flare.grand-challenge.org/evaluation/challenge/leaderboard/
+
 # Acknowledgement
 We thank the contributors of public datasets.
