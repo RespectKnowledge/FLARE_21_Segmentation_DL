@@ -1,7 +1,33 @@
 # FLARE_21_Segmentation_DL
 
-Preprocessing the 3D training dataset and convert into 2D slices
+# My Paper Title
+This repository is the official implementation of "Efficient Segmentation of Abdominal Organs using Skip 
+Residual Block UNet Model"
+# Environments and Requirements
+•	Windows
+•	CPU, RAM, GPU information
+•	CUDA version (11.3)
+•	python version (3.7)
+# To install requirements:
+pip install -r requirements.txt
+# Dataset
+Please you can donwload the dataset from the following website
+https://flare.grand-challenge.org/Data/
+•	The dataset is divided into training and validation. Inside the training and validation further two folders are
+created with name images and masks
+# Preprocessing
+•	intensity normalization used to process the training, validation and testing images.
+Running the data preprocessing code:
+python 
+# Training
+Please run this python code for training
+# Trained Models
+The trained weights can be download here:
 
-Training the model using random training and validation
-
-Testing or validation using pretrained model weights
+# Inference
+To infer the testing cases, run this command:
+# Results
+Please check the validation results on leaderboard
+https://flare.grand-challenge.org/evaluation/challenge/leaderboard/
+# Acknowledgement
+We thank the contributors of public datasets.
