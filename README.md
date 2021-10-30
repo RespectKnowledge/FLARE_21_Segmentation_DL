@@ -33,6 +33,9 @@ python Training_Flare_model.py
 # Trained Models
 The trained weights can be download here:
 
+# Here is the docker link for retrained on 1k abdominal CT images
+https://www.dropbox.com/s/j6ue6it0nrwadjc/aq_enib_flare_seg.tar.gz?dl=0
+
 # Inference
 To infer the testing cases, run this command:
 
